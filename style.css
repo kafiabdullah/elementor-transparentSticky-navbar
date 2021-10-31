@@ -1,0 +1,36 @@
+selector.elementor-sticky--effects{
+    background-color: rgba(255,255,255,1)!important
+    }
+    
+    selector{
+    transition: background-color 1s ease !important;
+    }
+     selector.elementor-sticky--effects >.elementor-container a.elementor-item.menu-link {
+        color: #111111 !important;
+    }
+    
+    selector.elementor-sticky--effects >.elementor-container{
+    min-height: 70px;
+    }
+    
+    selector > .elementor-container{
+    transition: min-height 1s ease !important;
+    }
+    
+    .logo img {
+    max-width: 300px !important;
+    height: auto;
+    transition: all 0.5s ease;
+    }
+    
+    .elementor-sticky--effects .logo img {
+    max-width: 200px !important;
+    height: auto;
+    }
+    
+    .elementor-sticky--effects span.elementor-icon-list-text {
+        color: black !important;
+    }
+    .elementor-sticky--effects span.elementor-icon-list-icon i.fas.fa-search, .elementor-sticky--effects span.elementor-icon-list-icon i.fas.fa-cart-arrow-down {
+        color: black !important;
+    }
